@@ -16,7 +16,7 @@ red or black. The red black trees follow two balance invariants
 @itemlist{@item{No red node has a red child.}} 
 @itemlist{@item{Every path from root to an empty node has the same 
                 number of black nodes.}}
-The above two invarients help in balancing the tree.
+The above two invariants help in balancing the tree.
 All the operations @scheme[member?], @scheme[insert]
 and @scheme[delete] have worst case running
 time of @bold{@italic{O(log(n))}}
